@@ -26,12 +26,7 @@ body {
 }
 
 ul {
-    list-style-type: none;
     margin: 22px 0 0 0;
-}
-
-li {
-    display: inline;
 }
 
 
@@ -39,6 +34,7 @@ li {
  float: left;
  padding-left: 25px;
  opacity: 0.75;
+ display: inline;
 
 }
 
@@ -66,7 +62,7 @@ input[type=text] {
     padding-right: 21px;
     opacity: 0.75;
     position: relative;
-
+    display: inline;
 
 }
 
@@ -88,38 +84,23 @@ input[type=text] {
     cursor: pointer;
 }
 
-.center {
-    text-align: center;
-    position: relative;
-    top: 158px;
+#ltnav {
+    text-align: left;
 }
+
+.lt-mid {
+    display: inline;
+}
+
+.lt-right {
+    display: inline;
+}
+
+
 
 #logo {
     width: 90px;
     height: 32px;
-
-}
-
-.icons {
-    position: relative;
-    bottom: 32px;
-    pointer-events: none;
-}
-
-#icon-l {
-    height: 20x;
-    width:20px;
-    position: relative;
-    right: 197px;
-    opacity: 45%;
-
-}
-
-#icon-r {
-height: 21px;
-width: 14px;
-position: relative;
-left: 192px;
 
 }
 
@@ -138,37 +119,9 @@ input[type=submit]:hover {
     color: #222;
 }
 
-.bottom-nav {
-    position:absolute;
-    bottom: 0px;
-    width: 100%;
-    background: #f2f2f2;
-    font-size: 14px;
-    color: #5f6368;
-    border-top: 0.5px solid  #dfe1e5;
-
-}
-
-.bnav-divider {
-    line-height: 40px;
-    
-}
 
 p {
     padding-left: 27px;
     position: relative;
     top: 10px;
 
-}
-
-.b-left {
-    padding-left: 27px;
-
-
-}
-
-.b-right {
-    float: right;
-    padding-right: 27px;
-    
-}
