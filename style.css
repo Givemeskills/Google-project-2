@@ -18,6 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+  
 
 body {
     font-family: "Arial", "Sans-Serif";
@@ -25,31 +26,30 @@ body {
 
 }
 
-ul {
-    margin: 22px 0 0 0;
+
+#top-nav {
+  display:flex;
+  justify-content: space-between;
+  
 }
 
-#tnav {
-  display: flex;
-  justify-content: flex-end;
+#logo {
+    padding: 0px 28px 0px 30px;
+    width: 90px;
+    height: 32px;
 }
 
-.t-left {
- padding-left: 25px;
- opacity: 0.75;
- display: inline;
-
+#top-nav-left {
+    display: flex;
+    margin-top: 34px;
 }
 
 .searchbar {
-    text-align: center;
     border-radius: 24px;
     border:1px solid #dfe1e5;
     border-width: 1.3px;
     width: 690px;
-    position: relative;
-    left: 15px;
-
+  
 }
 
 input[type=text] {
@@ -58,21 +58,19 @@ input[type=text] {
     font-size: 16px;
     width: 360px;
     height: 35px;
+    position: relative;
+    left: 30px;
 }
 
-.t-right {
-  
-    padding-right: 21px;
-    opacity: 0.75;
-    position: relative;
-    display: inline;
-
+#top-nav-right {
+   display: flex;
+   margin-top: 34px;
 }
 
 .squares {
-    position: relative;
-    top: 100px;
-    justify-content: flex-end;
+position: relative;
+top: 4px;
+opacity: 65%;
 }
 
 .sign-in {
@@ -83,26 +81,23 @@ input[type=text] {
     border: 1px solid #f2f2f2;
     color: #fff;
     cursor: pointer;
+    margin-left: 14px;
 }
+
 
 #ltnav {
-    text-align: left;}
+    text-align: left;
+}
 
-.lt-mid {
+.lt-mid, .lt-right {
     display: inline;
 }
 
-.lt-right {
-    display: inline;
+#searchbar-nav {
+    word-spacing: 35px;
+    padding: 25px 0px 0px 160px
 }
 
-
-
-#logo {
-    width: 90px;
-    height: 32px;
-
-}
 
 
 .searchbar:hover {

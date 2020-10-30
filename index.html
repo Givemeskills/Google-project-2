@@ -6,15 +6,19 @@
 </head>
 <body>
     <!--Top navigation bar/searchbar-->
-        <ul id="tnav">
-            <li class="t-left"> <img id="logo" src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png alt="Google logo">
-            </li>
-            <li class="t-left"> <form class="searchbar"> <input type="text"> </form></li>
-            <li class="t-right"> <form> <input class="sign-in" type="submit" value="Sign in"> </form> </li>
-            <li class="t-right"> <img src="squares.jpeg" style= "height:27px; width:27px"> </li>
-        </ul>
+<div id="top-nav">
+  <div id="top-nav-left">
+     <img id="logo" src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png alt="Google logo">
+     <form class="searchbar"> <input type="text"> </form>
+  </div>
+  <div id="top-nav-right">
+     <img class="squares" src="squares.jpeg" style= "height:27px; width:27px">
+     <form> <input class="sign-in" type="submit" value="Sign in"> </form>
+  </div>
+</div>
 <!--lower top nav bar-->
- <ul id="ltnav">
+<div id="searchbar-nav">
+ <ul id="list">
      <li class="lt-mid">All</li>
      <li class="lt-mid">News</li>
      <li class="lt-mid">Maps</li>
@@ -24,5 +28,6 @@
      <li class="lt-right">Settings</li>
      <li class="lt-right">Tools</li>
  </ul>
+</div>
 </body>
 </html>
