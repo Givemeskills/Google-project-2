@@ -37,6 +37,7 @@ body {
     padding: 0px 28px 0px 30px;
     width: 90px;
     height: 32px;
+    cursor: pointer;
 }
 
 #top-nav-left {
@@ -52,6 +53,10 @@ body {
   
 }
 
+#searchbar-icons {
+    display: flex;
+}
+
 input[type=text] {
     outline:none;
     border: none;
@@ -60,6 +65,21 @@ input[type=text] {
     height: 35px;
     position: relative;
     left: 30px;
+}
+
+#mic {
+    height: 20px;
+    width:19px;
+}
+
+#mag {
+ height: 21px;
+ width: 14px;
+
+}
+
+#mag, #mic {
+    cursor: pointer;
 }
 
 #top-nav-right {
@@ -71,6 +91,7 @@ input[type=text] {
 position: relative;
 top: 4px;
 opacity: 65%;
+cursor: pointer;
 }
 
 .sign-in {
@@ -89,15 +110,31 @@ opacity: 65%;
     text-align: left;
 }
 
+.lt-mid-all {
+display: inline;
+border-bottom: 3px solid #1a73e8;
+padding-bottom: 15px;
+color: #1a73e8;
+cursor: pointer;
+}
+
 .lt-mid, .lt-right {
     display: inline;
+    color: #5f6368;
+    cursor: pointer;
+
 }
 
 #searchbar-nav {
     word-spacing: 35px;
-    padding: 25px 0px 0px 160px
+    padding: 25px 0px 17px 160px;
+    border-bottom: 1px solid #ebebeb;
 }
 
+.lt-right {
+    position: relative;
+    left: 100px;
+}
 
 
 .searchbar:hover {
@@ -115,7 +152,9 @@ input[type=submit]:hover {
 }
 
 
-p {
-    padding-left: 27px;
-    position: relative;
-    top: 10px;
+#search-results {
+    margin: 20px auto auto 135px;
+    color: #70757A;
+    font-size: 14px;
+}
+
