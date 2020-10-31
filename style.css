@@ -26,6 +26,13 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 #top-nav {
   display:flex;
@@ -54,7 +61,13 @@ body {
 }
 
 #searchbar-icons {
+    width: 80px;
     display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 90px;
+    top: 10px;
+
 }
 
 input[type=text] {
@@ -69,17 +82,22 @@ input[type=text] {
 
 #mic {
     height: 20px;
-    width:19px;
+    width:14px;
+    padding-left: 15px;
+    border-left: 1px solid #dfe1e5;
 }
 
 #mag {
- height: 21px;
- width: 14px;
+    height: 27px;
+    width: 20px;
+    position: relative;
+    bottom: 3px;
 
 }
 
 #mag, #mic {
     cursor: pointer;
+
 }
 
 #top-nav-right {
@@ -88,10 +106,10 @@ input[type=text] {
 }
 
 .squares {
-position: relative;
-top: 4px;
-opacity: 65%;
-cursor: pointer;
+    position: relative;
+    top: 4px;
+    opacity: 65%;
+    cursor: pointer;
 }
 
 .sign-in {
@@ -111,11 +129,11 @@ cursor: pointer;
 }
 
 .lt-mid-all {
-display: inline;
-border-bottom: 3px solid #1a73e8;
-padding-bottom: 15px;
-color: #1a73e8;
-cursor: pointer;
+   display: inline;
+   border-bottom: 3px solid #1a73e8;
+   padding-bottom: 15px;
+   color: #1a73e8;
+   cursor: pointer;
 }
 
 .lt-mid, .lt-right {
@@ -153,8 +171,20 @@ input[type=submit]:hover {
 
 
 #search-results {
-    margin: 20px auto auto 135px;
+    margin: 20px 320px auto 135px;
     color: #70757A;
     font-size: 14px;
+    line-height: 1.6;
 }
 
+h1 {
+    font-size:20px;
+}
+
+.web-url , .web-url2{
+    display: inline;
+}
+
+.web-url {
+    color: #202124;
+}
