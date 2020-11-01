@@ -1,5 +1,4 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, sub, sup, tt, var,
@@ -191,6 +190,7 @@ input[type=submit]:hover {
 
 }
 
+
 .web-url {
     color: #202124;
 }
@@ -212,4 +212,17 @@ input[type=submit]:hover {
     top:23.5px;
 }
 
+.people-also-search-header{
+    font-size: 200;
+}
 
+#also-search-for-box-2 {
+    width: 600px;
+    margin: 20px auto auto 160px;
+    display: flex;
+    line-height: 1.7;
+    border:1px solid #dadce0;
+    border-width: 1.3px;
+    border-radius: 8px;
+    padding: 12px 15px 4px 15px;
+}
