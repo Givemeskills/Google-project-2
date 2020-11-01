@@ -175,7 +175,8 @@ input[type=submit]:hover {
 
 
 #search-results {
-    margin: 20px 320px auto 160px;
+    width: 600px;
+    margin: 20px auto auto 160px;
     color: #70757A;
     font-size: 14px;
     line-height: 1.6;
@@ -194,6 +195,7 @@ h1 {
 }
 
 #also-search-for-box {
+    width: 360px;
     display: flex;
     line-height: 1.7;
     margin: 7px;
