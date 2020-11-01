@@ -182,12 +182,13 @@ input[type=submit]:hover {
     line-height: 1.6;
 }
 
-h1 {
+#search-heading {
     font-size:20px;
 }
 
 .web-url , .web-url2{
     display: inline;
+
 }
 
 .web-url {
@@ -195,7 +196,7 @@ h1 {
 }
 
 #also-search-for-box {
-    width: 360px;
+    width: 600px;
     display: flex;
     line-height: 1.7;
     margin: 7px;
@@ -210,3 +211,5 @@ h1 {
     left: 14px;
     top:23.5px;
 }
+
+
