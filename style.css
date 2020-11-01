@@ -2,9 +2,9 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol, ul,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -38,6 +38,10 @@ a:hover {
   display:flex;
   justify-content: space-between;
   
+}
+
+li {
+    list-style-type: none;
 }
 
 #logo {
@@ -171,7 +175,7 @@ input[type=submit]:hover {
 
 
 #search-results {
-    margin: 20px 320px auto 135px;
+    margin: 20px 320px auto 160px;
     color: #70757A;
     font-size: 14px;
     line-height: 1.6;
@@ -187,4 +191,20 @@ h1 {
 
 .web-url {
     color: #202124;
+}
+
+#also-search-for-box {
+    display: flex;
+    line-height: 1.7;
+    margin: 7px;
+    border:1px solid #dadce0;
+    border-width: 1.3px;
+    border-radius: 8px;
+    padding: 12px 15px 4px 15px;
+}
+
+.also-box-right {
+    position: relative;
+    left: 14px;
+    top:23.5px;
 }
