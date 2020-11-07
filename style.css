@@ -290,8 +290,6 @@ input[type=submit]:hover {
     justify-content: flex-start;
     line-height: 1.9;
    
-    
- 
 }
 
 .also-box-right-footer {
@@ -308,6 +306,18 @@ input[type=submit]:hover {
 #logo-next-page {
     cursor: pointer;
     margin-top:5px;
+}
+
+#arrow-icon-two {
+    width:15px;
+    height: 15px;
+}
+
+#next-page-nav-two {
+ width: 600px;
+ height: 100px;
+ display: flex;
+flex-direction: column;
 }
 
 .page-numbers {
