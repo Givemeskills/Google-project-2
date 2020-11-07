@@ -27,6 +27,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #1a0dab;
 }
 
 a:hover {
@@ -269,7 +270,6 @@ input[type=submit]:hover {
     width: 300px;
     border:1px solid #dadce0;
     border-radius: 18px;
-    color: #1a0dab;
     font-size: 14px;
     line-height: 2.5;
     text-align: center;
@@ -284,32 +284,56 @@ input[type=submit]:hover {
 
 }
 
-#also-search-for-box-footer {
+#also-search-for-box-footer{
     width: 600px;
     display: flex;
-    line-height: 1.7;
-    margin: 7px;
+    justify-content: flex-start;
+    line-height: 1.9;
+   
+    
  
 }
+
 .also-box-right-footer {
-    background-position: relative;
-    left: 200px;
+    margin-left: 50px;
 }
 
+#next-page-nav {
+    width: 600px;
+    margin-left: 160px;
+    text-align: center;
+    
+}
+
+#logo-next-page {
+    cursor: pointer;
+    margin-top:5px;
+}
+
+.page-numbers {
+ display: inline;
+ position: relative;
+ right: 8.4px;
+ margin-left: 8.5px;
+ font-size: 14px;
+ color: #4285f4;
+ cursor: pointer;
+;}
+
 #footer-bar {
-    background: #f2f2f2;
-    min-width: 1261px;
-    border-top: 1px solid #e4e4e4;
-    color: rgba(0,0,0,.54);
-    line-height: 25px
+ background: #f2f2f2;
+ min-width: 1261px;
+ border-top: 1px solid #e4e4e4;
+ line-height: 25px;
+ color:#5f6368
 
 }
 
 #footer-bar-top li, #footer-bar-bottom li{
-display: inline;
-font-size: 14px;
-position: relative;
-left: 180px;
+ display: inline-block;
+ font-size: 14px;
+ position: relative;
+ left: 180px;
 
 }
 
@@ -323,7 +347,6 @@ left: 180px;
 #footer-bar-bottom {
     border-top: 1px solid #e4e4e4;
     width: 100%; 
-
 }
 
 #footer-bar-bottom li:first-child {
@@ -333,3 +356,4 @@ left: 180px;
 #footer-bar-bottom li {
     margin-left: 20px;
 }
+
