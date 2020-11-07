@@ -295,3 +295,41 @@ input[type=submit]:hover {
     background-position: relative;
     left: 200px;
 }
+
+#footer-bar {
+    background: #f2f2f2;
+    min-width: 1261px;
+    border-top: 1px solid #e4e4e4;
+    color: rgba(0,0,0,.54);
+    line-height: 25px
+
+}
+
+#footer-bar-top li, #footer-bar-bottom li{
+display: inline;
+font-size: 14px;
+position: relative;
+left: 180px;
+
+}
+
+.location {
+    border-left:1px solid #e4e4e4;
+    margin-left:25px;
+    padding-left: 28px;
+}
+
+
+#footer-bar-bottom {
+    border-top: 1px solid #e4e4e4;
+    width: 100%; 
+
+}
+
+#footer-bar-bottom li:first-child {
+    margin-left: 0px
+}
+
+#footer-bar-bottom li {
+    margin-left: 20px;
+}
