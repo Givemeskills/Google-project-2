@@ -35,9 +35,11 @@ a:hover {
 }
 
 #top-nav {
-  display:flex;
-  justify-content: space-between;
-  
+    background-color: white;
+    position: sticky;
+    top:0;
+    display:flex;
+    justify-content: space-between;
 }
 
 li {
@@ -59,9 +61,9 @@ li {
 .searchbar {
     border-radius: 24px;
     border:1px solid #dfe1e5;
+    background-color: white;
     border-width: 1.3px;
     width: 690px;
-  
 }
 
 #searchbar-icons {
@@ -71,7 +73,6 @@ li {
     position: relative;
     right: 90px;
     top: 10px;
-
 }
 
 input[type=text] {
@@ -96,7 +97,6 @@ input[type=text] {
     width: 20px;
     position: relative;
     bottom: 3px;
-
 }
 
 #mag, #mic {
@@ -105,8 +105,8 @@ input[type=text] {
 }
 
 #top-nav-right {
-   display: flex;
-   margin-top: 34px;
+    display: flex;
+    margin-top: 34px;
 }
 
 .squares {
@@ -127,7 +127,6 @@ input[type=text] {
     margin-left: 14px;
 }
 
-
 #ltnav {
     text-align: left;
 }
@@ -144,7 +143,6 @@ input[type=text] {
     display: inline;
     color: #5f6368;
     cursor: pointer;
-
 }
 
 #searchbar-nav {
@@ -156,15 +154,14 @@ input[type=text] {
 .lt-right {
     position: relative;
     left: 100px;
+    z-index: -1;
 }
-
 
 .searchbar:hover {
     border-color: rgba(223,225,229,0);
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
-    
-
+  
 input[type=submit]:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
@@ -191,7 +188,6 @@ input[type=submit]:hover {
 
 }
 
-
 .web-url {
     color: #202124;
 }
@@ -209,6 +205,7 @@ input[type=submit]:hover {
 
 .also-box-right {
     position: relative;
+    z-index: -1;
     left: 14px;
     top:23.5px;
 }
@@ -258,6 +255,7 @@ input[type=submit]:hover {
     position: relative;
     right: 55px;
 }
+
 #see-more-container {
     display: flex;
     justify-content: space-around;
@@ -281,15 +279,13 @@ input[type=submit]:hover {
     position: relative;
     right: 95px;
     top: 3px
-
 }
 
 #also-search-for-box-footer{
     width: 600px;
     display: flex;
     justify-content: flex-start;
-    line-height: 1.9;
-   
+    line-height: 1.9;   
 }
 
 .also-box-right-footer {
@@ -300,7 +296,6 @@ input[type=submit]:hover {
     width: 600px;
     margin-left: 160px;
     text-align: center;
-    
 }
 
 #next-page-nav-two {
@@ -313,6 +308,7 @@ input[type=submit]:hover {
     justify-content: space-around;
     position: relative;
     bottom: 72px;
+    margin-bottom: -50px;
 }
 
 #logo-next-page {
@@ -325,20 +321,18 @@ input[type=submit]:hover {
     height: 15px;
     position: relative;
     right:5px;
-    top: 10px
+    top: 10px;
 }
 
-
-
 .page-numbers {
- display: inline;
- position: relative;
- right: 8.4px;
- margin-left: 8.5px;
- font-size: 14px;
- color: #4285f4;
- cursor: pointer;
-;}
+   display: inline;
+   position: relative;
+   right: 8.4px;
+   margin-left: 8.5px;
+   font-size: 14px;
+   color: #4285f4;
+   cursor: pointer;
+}
 
 #footer-bar {
  background: #f2f2f2;
@@ -346,7 +340,6 @@ input[type=submit]:hover {
  border-top: 1px solid #e4e4e4;
  line-height: 25px;
  color:#5f6368
-
 }
 
 #footer-bar-top li, #footer-bar-bottom li{
@@ -354,7 +347,6 @@ input[type=submit]:hover {
  font-size: 14px;
  position: relative;
  left: 180px;
-
 }
 
 .location {
